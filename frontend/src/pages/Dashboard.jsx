@@ -16,8 +16,7 @@ import AlgorithmExplanation from '../components/AlgorithmExplanation'
 import Toast from '../components/Toast'
 import PdfExport from '../components/PdfExport'
 
-const API_BASE = 'https://ecoroute-ai-backend.onrender.com'
-
+const API_BASE = 'https://ecoroute-ai-backend.onrender.com/api'
 const navItems = [
   { id: 'map', icon: Map, label: 'Map View' },
   { id: 'graph', icon: GitBranch, label: 'Road Network' },
